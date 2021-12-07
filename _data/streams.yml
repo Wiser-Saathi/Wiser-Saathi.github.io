@@ -1,0 +1,6 @@
+- name: JEE
+  url: /jee
+- name: CBSE XI-XII
+  url: /cbse12
+- name: NEET
+  url: /neet

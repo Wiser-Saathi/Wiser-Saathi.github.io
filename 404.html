@@ -1,6 +1,6 @@
 ---
 permalink: /404.html
-layout: default
+layout: base
 ---
 
 <style type="text/css" media="screen">
@@ -8,7 +8,9 @@ layout: default
     margin: 10px auto;
     max-width: 600px;
     text-align: center;
+    min-height: 75vh;
   }
+
   h1 {
     margin: 30px 0;
     font-size: 4em;
@@ -17,9 +19,11 @@ layout: default
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<div class="container d-flex">
+  <div class="row m-auto">
+    <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    <p><strong>Page not found :(</strong></p>
+    <p>The requested page could not be found.</p>
+  </div>
 </div>

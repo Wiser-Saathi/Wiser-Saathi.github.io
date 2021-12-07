@@ -1,0 +1,41 @@
+<!-- <link href="{{site.baseurl}}/css/navbar.css" rel="stylesheet" /> -->
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-navy navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{site.baseurl}}/">
+            <img src="{{site.baseurl}}/assets/images/logo.png" width="25" height="25"
+                class="d-inline-block align-text-top" />Wiser-Saathi
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                {% assign links = site.data.navigation %}
+                {% for link in links %}
+                {% if link.sublinks %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        {{link.title}}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {% for sublnk in link.sublinks %}
+                        <li><a class="dropdown-item" href="{{site.baseurl}}{{sublnk.url}}">{{sublnk.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    {% if page.permalink==link.url %}
+                    <a class="nav-link active" href="{{site.baseurl}}{{ link.url }}">{{ link.title }}</a>
+                    {% else %}
+                    <a class="nav-link" href="{{site.baseurl}}{{ link.url }}">{{ link.title }}</a>
+                    {% endif %}
+                </li>
+                {% endif %}
+
+                {% endfor %}
+        </div>
+    </div>
+</nav>

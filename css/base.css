@@ -1,0 +1,24 @@
+body,
+html {
+  overflow-x: hidden;
+  background-color: #caabd8ff;
+  color: #142850;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.bg-navy {
+  background-color: #caabd8ff !important;
+}
+.bg-primary {
+  background-color: #142850 !important;
+}
+.bg-secondary {
+  background-color: #9873b9ff !important;
+}
+.bg-light {
+  background-color: #f3a4a4ff !important;
+}
+a {
+  text-decoration: none;
+  color: #9873b9ff;
+}
