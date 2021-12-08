@@ -3,7 +3,7 @@ layout: base
 ---
 <div class="container pt-5">
     {% for stream in site.data.streams %}
-    <div class="row py-5">
+    <div class="row pt-5 pb-3" id="{{stream.tag}}">
         <h1>{{stream.name}}</h1>
     </div>
     <div class="row py-1">

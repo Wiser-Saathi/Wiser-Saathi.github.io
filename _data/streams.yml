@@ -1,5 +1,6 @@
 - name: JEE
-  url: /jee
+  tag: jee
+  url: /mentorlist/#jee
   mentors:
     - name: Abhigyan Ghosh
       image: abhigyan-ghosh.jpg
@@ -9,7 +10,8 @@
       ed: CSE, IIT Bombay
       bio: Honored to have Mohit as our members, Who doesn't know this name? particularly after the JEE Advance results 2017. He's the most humble and down to earth topper you'd know, who's been to half the globe, check the flags on his Instagram profile @gupta.m0hit . Mohit has the most interesting stories to tell which honestly aren't meant motivational but will leave you 200% encouraged about how fun life can be, he ofc never admits the hardwork and dedication he put in, but isn't it all so obvious! Work hard in silence, and let your success make noise. Mohit yaar, tune toh dhol bajwa rakhe hain!
 - name: NEET
-  url: /neet
+  tag: neet
+  url: /mentorlist/#neet
   mentors:
     - name: Shivani
       ed: MBBS, Stanley Medical College, Chennai
@@ -27,4 +29,5 @@
       ed: MBBS, AFMC Pune
       bio: Well, well! This is Arka, from AFMC and I may not know him in college, but at school, he was that one kid who'd be the center of all fun and masti, look careless(maybe he indeed was about Biotech marks) but at the end had the best marks in NEET. If teacher's at DAV Bistupur hate you, he's the best guy you can ask for ways to piss them more. But being serious, this guy's a gem, hardworking, dedicated and fun to hang around.Also he's a great musician.
 - name: CBSE XI-XII
-  url: /cbse12
+  tag: cbse12
+  url: /mentorlist/#cbse12
