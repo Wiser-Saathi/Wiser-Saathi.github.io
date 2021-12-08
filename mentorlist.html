@@ -1,0 +1,29 @@
+---
+layout: base
+---
+<div class="container pt-5">
+    {% for stream in site.data.streams %}
+    <div class="row py-5">
+        <h1>{{stream.name}}</h1>
+    </div>
+    <div class="row py-1">
+        {% for mentor in stream.mentors %}
+        <div class="card m-auto">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex">
+                    <img src="{{site.baseurl}}/assets/images/mentors/{{mentor.image}}"
+                        class="img-fluid img-thumbnail rounded-start m-auto" height="200px" width="200px"
+                        alt="{{mentor.name}}profile">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title">{{mentor.name}}</h1>
+                        <p class="card-text">{{mentor.bio}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
