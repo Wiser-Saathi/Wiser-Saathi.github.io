@@ -44,14 +44,14 @@ layout: base
         <div class="row">
             <h1 class="display-3">Streams Available</h1>
         </div>
-        <!-- <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3"> -->
-        <div class="d-grid gap-2 d-md-block">
+        <div class="row row-cols-3 row-cols-lg-4 g-2 g-lg-3">
+            <!-- <div class="d-grid gap-2 d-md-block"> -->
             {% for stream in site.data.streams %}
-            <a href="{{site.baseurl}}{{stream.url}}">
-                <button class="btn border btn-primary p-3" type="button">
+            <button class="col btn btn-primary bg-primary p-3 m-1">
+                <a class="m-auto text-white text-center" href="{{site.baseurl}}{{stream.url}}">
                     {{stream.name}}
-                </button>
-            </a>
+                </a>
+            </button>
             {% endfor %}
         </div>
     </div>
