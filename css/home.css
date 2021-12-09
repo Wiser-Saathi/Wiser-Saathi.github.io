@@ -7,8 +7,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.landing-card {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 @media screen and (max-width: 767px) {
   #landing3 {
     background-position: bottom;
+  }
+  .landing-image {
+    max-height: 100px;
+    max-width: 100px;
   }
 }
