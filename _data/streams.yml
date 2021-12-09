@@ -1,33 +1,39 @@
 - name: JEE
   tag: jee
-  url: /mentorlist/#jee
+  url: /mentorlist#jee
   mentors:
     - name: Abhigyan Ghosh
       image: abhigyan-ghosh.jpg
       ed: BTech + MS in Computational Linguistics, IIIT Hyderabad
-      bio: I made this bitches.
+      bio: I worked on the technical part of this. Shivani wrote all the bios.
     - name: Mohit Gupta
+      image: mohit-gupta.jpg
       ed: CSE, IIT Bombay
       bio: Honored to have Mohit as our members, Who doesn't know this name? particularly after the JEE Advance results 2017. He's the most humble and down to earth topper you'd know, who's been to half the globe, check the flags on his Instagram profile @gupta.m0hit . Mohit has the most interesting stories to tell which honestly aren't meant motivational but will leave you 200% encouraged about how fun life can be, he ofc never admits the hardwork and dedication he put in, but isn't it all so obvious! Work hard in silence, and let your success make noise. Mohit yaar, tune toh dhol bajwa rakhe hain!
 - name: NEET
   tag: neet
-  url: /mentorlist/#neet
+  url: /mentorlist#neet
   mentors:
     - name: Shivani
       ed: MBBS, Stanley Medical College, Chennai
+      image: shivani.jpg
       bio: Here! On popular demand. I have nothing much to say except that I made thissssss ( ofc Abhigyan worked on all the technical part )
     - name: Mangesh Kritya
       ed: MBBS, AFMC Pune
+      image: mangesh.jpg
       bio: Presenting our first senior onboard, the 'Chillax' Mangesh, a student from KV and later a 2017 batch DAV Bistupur passout. He's not just a hardworking and sincere student but also a very understanding and helpful friend. Was the Jamshedpur Aiims entrance exam topper. Cleared Jipmer and Neet exams, and chose to join AFMC. He's a chess and badminton player at zonal level, who never disappoints to encourage others with his equally balanced easy going and serious nature. Backed with such brilliant achievements we look forward to a happy Wiser-saathi experience both for Mangesh and students✨
     - name: Subrata Nag
+      image: subrata-nag.jpg
       ed: MBBS, AIIMS Rishikesh
       bio: Introducing Subrata! The champ from 17 batch DAV Bistupur, who rocked not just at NEET, AIIMS entrances but JEE also, finally is at AIIMS, Rishikesh. This person is a perfect All rounder who's good at everything, be it studies, sports, or co-curricular. A very approachable and logical guide, his experiences range from living alone and managing his significantly busy life at hostel all the while in school and coaching to trekking, camping and adventure trips on the Himalayas. We hope for a wonderful time together at Wisersaathi✨
     - name: Rishi Swayam Chowdhury
       ed: MBBS, RIMS Ranchi
+      image: rishi-swayam.jpg
       bio: Welcome Rishi! Hope you have a wonderful time here. Talking about you, all that comes to my mind is Humble nature, Curiosity, Dedication and Sincerity. Teacher's favorite student who'd never disappoint friends asking doubts.
     - name: Arka Basu
       ed: MBBS, AFMC Pune
+      image: arka-basu.jpg
       bio: Well, well! This is Arka, from AFMC and I may not know him in college, but at school, he was that one kid who'd be the center of all fun and masti, look careless(maybe he indeed was about Biotech marks) but at the end had the best marks in NEET. If teacher's at DAV Bistupur hate you, he's the best guy you can ask for ways to piss them more. But being serious, this guy's a gem, hardworking, dedicated and fun to hang around.Also he's a great musician.
 - name: CBSE XI-XII
   tag: cbse12
-  url: /mentorlist/#cbse12
+  url: /mentorlist#cbse12
