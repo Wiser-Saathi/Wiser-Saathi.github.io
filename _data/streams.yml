@@ -10,6 +10,10 @@
       image: mohit-gupta.jpg
       ed: CSE, IIT Bombay
       bio: This is Mohit, from IIT Bombay, very approchable and easy going senior ready to help with all queries related to JEE preparation and counselling.
+    - name: Vinay Kumar Agarwal
+      image: vinay-agarwal.jpg
+      ed:  MnC , IIT Kharagpur
+      bio: This is Vinay, from IIT Kharagpur, very approchable and easy going senior ready to help with all queries related to JEE preparation and counselling.
 - name: NEET
   tag: neet
   url: /mentorlist#neet
